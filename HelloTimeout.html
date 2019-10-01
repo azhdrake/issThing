@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title> Hello Timeout </title>
+<head>
+
+<body>
+	<h1 id = "time"></h1>
+	
+	<script> 
+	let temporalElement = document.getElementById("time")
+	
+	setInterval( () => {
+		let date = Date()
+		temporalElement.innerHTML = date
+	},1000)
+	
+/*	header.addEventListener("click", function(){
+		setTimeout(function(){
+			alertTime()
+		}, 3000)})
+	
+	
+	function alertTime(){
+		alert("Hello! This happened 3 seconds after the page loaded!")
+	}*/</script>
+	
+	
+	</body>
+	</html>
